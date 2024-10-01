@@ -12,7 +12,7 @@ locals {
         vcs_repo_identifier = "${var.github_organization_name}/devops-eci-terraform-tfe" 
     }
     "devops-eci-github" = {
-        description = "Github workspace"
+        description = "Description of Github workspace"
         execution_mode = "local"
         project_id = module.project["devops-eci-project"].id 
         vcs_repo_identifier = "${var.github_organization_name}/devops-eci-terraform-github" 
