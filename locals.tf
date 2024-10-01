@@ -18,5 +18,4 @@ locals {
         vcs_repo_identifier = "${var.github_organization_name}/devops-eci-terraform-github" 
     }
   }
-  
 }
