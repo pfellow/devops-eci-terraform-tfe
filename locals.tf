@@ -13,7 +13,7 @@ locals {
     }
     "devops-eci-github" = {
         description = "Description of Github workspace"
-        execution_mode = "local"
+        execution_mode = "remote"
         project_id = module.project["devops-eci-project"].id 
         vcs_repo_identifier = "${var.github_organization_name}/devops-eci-terraform-github" 
     }
